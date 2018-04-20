@@ -1,0 +1,26 @@
+{
+  "name": "pruebas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files '*.js,*.css,*.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hildyale/pruebas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hildyale/pruebas/issues"
+  },
+  "homepage": "https://github.com/hildyale/pruebas#readme",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1"
+  }
+}
